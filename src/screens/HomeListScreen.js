@@ -1,10 +1,12 @@
 import React from 'react'
 import { View, Text, StyleSheet } from 'react-native'
 
+import Card from '../components/Card'
+
 export default function HomeListScreen() {
     return (
         <View>
-            <Text>Home List Screen</Text>
+            <Card />
         </View>
     )
 }
