@@ -2,6 +2,7 @@ import React from 'react'
 import { NavigationContainer } from '@react-navigation/native'
 import { createStackNavigator } from '@react-navigation/stack'
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs'
+import { MaterialIcons } from '@expo/vector-icons'
 
 import AboutScreen from '../screens/AboutScreen'
 import AddHomeScreen from '../screens/AddHomeScreen'
@@ -46,7 +47,21 @@ function AboutStackNavigator() {
 function AppNavigator() {
     return (
         <NavigationContainer>
-            <Tab.Navigator>
+            <Tab.Navigator
+            // --------- ICONS -----------------
+                screenOptions={({ route }) => ({
+                    tabBarIcon: () => {
+                        let iconName;
+                        if(route.name=="Home") {
+                            iconName = "home"
+                        } else if(route.name=="About") {
+                            iconName = "info"
+                        }
+
+                        return <MaterialIcons name={iconName} size={24}/>
+                    }
+                })}
+            >
                 <Tab.Screen 
                     name="Home"
                     component={ stackNavigator }
