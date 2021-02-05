@@ -7,7 +7,9 @@ import Card from '../components/Card'
 export default function HomeListScreen(props) {
     return (
         <View style={ styles.container }>
-            <Card />
+            <Card
+                navigation={ props.navigation }
+            />
             <FloatingAction 
                 position="right"
                 animated={ false }

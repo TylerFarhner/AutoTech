@@ -1,9 +1,12 @@
 import React from 'react'
-import { View, Text, StyleSheet, ImageBackground } from 'react-native'
+import { View, Text, StyleSheet, ImageBackground, TouchableOpacity } from 'react-native'
 
-export default function Card() {
+export default function Card(props) {
     return (
-        <View style={ styles.card }>
+        <TouchableOpacity
+            onPress={() => props.navigation.navigate('HomeDetails') }
+        >
+            <View style={ styles.card }>
             <View style={ styles.container }>
                 <Text style={ styles.title }>
                     Modern 3-Bedroom flat
@@ -26,7 +29,8 @@ export default function Card() {
                     This is the description
                 </Text>
             </View>
-        </View>
+            </View>
+        </TouchableOpacity>
     )
 }
 
