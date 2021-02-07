@@ -1,7 +1,16 @@
 import React from 'react';
 import {StyleSheet, View, Text, ScrollView, Image} from 'react-native';
+import { useSelector } from 'react-redux'
 
-const HomeDetailsScreen = () => {
+const HomeDetailsScreen = (props) => {
+
+  const {houseId} = props.route.params
+
+  const house = useSelector(state => state.house.houses.find(house => house._id == houseId))
+  // iterate over houses array, return house with id that matches the params (card click)
+
+  console.log(house)
+  
     return (
         <ScrollView>
             <View style={styles.container}>
