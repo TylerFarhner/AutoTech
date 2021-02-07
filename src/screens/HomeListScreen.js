@@ -24,6 +24,13 @@ export default function HomeListScreen(props) {
                 renderItem={ ({item}) => (
                     <Card
                         navigation={ props.navigation }
+                        title={item.title}
+                        address={item.address}
+                        homeType={item.homeType}
+                        description={item.description}
+                        price={item.price}
+                        image={item.image}
+                        yearBuilt={item.yearBuilt}
                     />
                 ) }
             />
