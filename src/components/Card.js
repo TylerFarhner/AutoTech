@@ -9,7 +9,7 @@ export default function Card(props) {
             <View style={ styles.card }>
             <View style={ styles.container }>
                 <Text style={ styles.title }>
-                    { props.title }
+                    { props.title.length > 30 ? props.title.slice(0, 30) + '...' : props.title }
                     </Text>
             </View>
             <View style={ styles.imageContainer }>
@@ -21,7 +21,9 @@ export default function Card(props) {
                 </ImageBackground>
             </View>
             <View style={ styles.description }>
-                <Text style={ styles.descriptionText }>{ props.description }</Text>
+                <Text style={ styles.descriptionText }>
+                { props.description.length > 100 ? props.description.slice(0, 100) + '...' : props.description }
+                </Text>
             </View>
             </View>
         </TouchableOpacity>
