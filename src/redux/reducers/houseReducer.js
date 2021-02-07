@@ -14,9 +14,10 @@ export default function(state = initialState, action) {
                 houses: action.payload
             }
         case CREATE_HOUSES:
+            console.log(action.payload)
             return {
                 ...state,
-                houses: state.houses.concat(action.payload)
+                houses: state.houses.concat(action.payload.data)
             }
     }
 

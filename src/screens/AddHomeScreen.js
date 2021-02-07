@@ -1,7 +1,10 @@
 import React from 'react';
-import {StyleSheet, View, Text, ScrollView, TextInput, Button, KeyboardAvoidingView} from 'react-native';
+import {StyleSheet, View, Text, ScrollView, TextInput, Button, KeyboardAvoidingView, Alert} from 'react-native';
 import { Formik } from 'formik'
 import * as yup from 'yup'
+import { useDispatch } from 'react-redux'
+
+import * as houseAction from '../redux/actions/houseAction'
 
 const formSchema = yup.object({
     title: yup.string().required().min(3).max(50),
@@ -15,6 +18,7 @@ const formSchema = yup.object({
 
 const AddHomeScreen = () => {
 
+    const dispatch = useDispatch()
     
     return (
         <KeyboardAvoidingView
@@ -37,6 +41,14 @@ const AddHomeScreen = () => {
                     validationSchema={ formSchema }
                     onSubmit={(values) => {
                         console.log(values)
+                        dispatch(houseAction.createHome(values))
+                            .then(() => {
+                                Alert.alert('Created Successfully')
+                            })
+                            .catch(() => {
+                                Alert.alert('Error, Try Again.', [{text: 'OK'}])
+                            }
+                            )
                     }}
                 >
                     {(props) => (
