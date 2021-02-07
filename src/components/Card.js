@@ -9,25 +9,19 @@ export default function Card(props) {
             <View style={ styles.card }>
             <View style={ styles.container }>
                 <Text style={ styles.title }>
-                    Modern 3-Bedroom flat
-                </Text>
+                    { props.title }
+                    </Text>
             </View>
             <View style={ styles.imageContainer }>
-                <ImageBackground source={ require('../../assets/images/house.png') } style={ styles.image }>
-                    <Text style={ styles.price }>
-                        $200,000
-                    </Text>
+                <ImageBackground source={{ uri: props.image }} style={ styles.image }>
+                    <Text style={ styles.price }>{ props.price }</Text>
                     <View style={ styles.year }>
-                        <Text style={ styles.yearText }>
-                            2020
-                        </Text>
+                        <Text style={ styles.yearText }>{ props.yearBuilt }</Text>
                     </View>
                 </ImageBackground>
             </View>
             <View style={ styles.description }>
-                <Text style={ styles.descriptionText }>
-                    This is the description
-                </Text>
+                <Text style={ styles.descriptionText }>{ props.description }</Text>
             </View>
             </View>
         </TouchableOpacity>
