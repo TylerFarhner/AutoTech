@@ -1,16 +1,17 @@
 import React from "react";
 import {StyleSheet, View, Text} from 'react-native'
 
-import EngineCard from "../components/EngineCard";
-import BrakeCard from "../components/BrakeCard";
+import EngineCard from "../components/Diagnostic Cards/EngineCard";
+import BrakeCard from "../components/Diagnostic Cards/BrakeCard";
+import { ScrollView } from "react-native-gesture-handler";
 
 const GMScreen = () => {
 
     return(
-        <View>
+        <ScrollView>
             <EngineCard />
             <BrakeCard />
-        </View>
+        </ScrollView>
     )
 
 }
