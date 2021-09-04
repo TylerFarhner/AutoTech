@@ -1,13 +1,15 @@
 import React from 'react'
 import { View, Text, StyleSheet, ImageBackground, TouchableOpacity } from 'react-native'
 
-export default function EngineCard() {
+export default function EngineCard(props) {
     return (
-        <View style={styles.card}>
-            <View style={styles.titleWrapper}>
-                <Text>Engine Maintenance</Text>
+        <TouchableOpacity onPress={() => props.navigation.navigate('EngineScreen')}>
+            <View style={styles.card}>
+                <View style={styles.titleWrapper}>
+                    <Text>Engine Maintenance</Text>
+                </View>
             </View>
-        </View>
+        </TouchableOpacity>
         
     );
 }

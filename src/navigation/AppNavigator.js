@@ -26,10 +26,10 @@ function stackNavigator () {
                 name="Indicator Lights"
                 component={HomeScreen}
             />
-            <Stack.Screen 
+            {/* <Stack.Screen 
                 name="Details"
                 component={GMScreen}
-            />
+            /> */}
         </Stack.Navigator>
     );
 }
@@ -40,6 +40,38 @@ function GMStackNavigator() {
             <Stack.Screen 
                 name="General Maintenance"
                 component={ GMScreen }
+            />
+            <Stack.Screen 
+                name="EngineScreen"
+                component={EngineScreen}
+            />
+            <Stack.Screen 
+                name="BrakeScreen"
+                component={BrakeScreen}
+            />
+            <Stack.Screen 
+                name="CoolingScreen"
+                component={CoolingScreen}
+            />
+            <Stack.Screen 
+                name="WheelsTiresScreen"
+                component={WheelsTiresScreen}
+            />
+            <Stack.Screen 
+                name="SuspensionScreen"
+                component={SuspensionScreen}
+            />
+            <Stack.Screen 
+                name="ACScreen"
+                component={ACScreen}
+            />
+            <Stack.Screen 
+                name="TransScreen"
+                component={TransScreen}
+            />
+            <Stack.Screen 
+                name="DiffScreen"
+                component={DiffScreen}
             />
         </Stack.Navigator>
     )

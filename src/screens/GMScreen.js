@@ -1,6 +1,6 @@
 import React from "react";
 import {StyleSheet, View, Text} from 'react-native'
-import { ScrollView } from "react-native-gesture-handler";
+import { ScrollView, TouchableOpacity } from "react-native-gesture-handler";
 
 // ------------- CARD IMPORTS -------------------------
 import EngineCard from "../components/Diagnostic Cards/EngineCard";
@@ -12,12 +12,14 @@ import ACCard from "../components/Diagnostic Cards/ACCard"
 import TransCard from "../components/Diagnostic Cards/TransCard"
 import DiffCard from "../components/Diagnostic Cards/DiffCard"
 
-const GMScreen = () => {
+const GMScreen = props => {
 
     return(
         <ScrollView>
             <EngineCard />
+            <TouchableOpacity onPress={() => props.navigation.navigate('BrakeScreen')}>
             <BrakeCard />
+            </TouchableOpacity>
             <CoolingCard />
             <WheelsTiresCard />
             <SuspensionCard />
