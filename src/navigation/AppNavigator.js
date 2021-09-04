@@ -6,6 +6,14 @@ import { MaterialIcons } from '@expo/vector-icons'
 
 import HomeScreen from '../screens/HomeScreen'
 import GMScreen from '../screens/GMScreen'
+import EngineScreen from '../screens/EngineScreen'
+import BrakeScreen from '../screens/BrakeScreen'
+import CoolingScreen from '../screens/CoolingScreen'
+import WheelsTiresScreen from '../screens/WheelsTiresScreen'
+import SuspensionScreen from '../screens/SuspensionScreen'
+import ACScreen from '../screens/ACScreen'
+import TransScreen from '../screens/TransScreen'
+import DiffScreen from '../screens/DiffScreen'
 
 
 const Stack = createStackNavigator()
