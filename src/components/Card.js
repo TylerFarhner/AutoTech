@@ -1,35 +1,56 @@
 import React from 'react'
 import { View, Text, StyleSheet, ImageBackground, TouchableOpacity } from 'react-native'
 
-export default function Card(props) {
+import ModalComp from './Modal'
+
+// export default function Card(props) {
+//     return (
+//         <TouchableOpacity
+//             onPress={() => props.navigation.navigate('HomeDetails', { 
+//                 houseId: props.id 
+//             }) }
+//         >
+//             <View style={ styles.card }>
+//             <View style={ styles.container }>
+//                 <Text style={ styles.title }>
+//                     { props.title.length > 30 ? props.title.slice(0, 30) + '...' : props.title }
+//                     </Text>
+//             </View>
+//             <View style={ styles.imageContainer }>
+//                 <ImageBackground source={{ uri: props.image }} style={ styles.image }>
+//                     <Text style={ styles.price }>{ props.price }</Text>
+//                     <View style={ styles.year }>
+//                         <Text style={ styles.yearText }>{ props.yearBuilt }</Text>
+//                     </View>
+//                 </ImageBackground>
+//             </View>
+//             <View style={ styles.description }>
+//                 <Text style={ styles.descriptionText }>
+//                 { props.description.length > 100 ? props.description.slice(0, 100) + '...' : props.description }
+//                 </Text>
+//             </View>
+//             </View>
+//         </TouchableOpacity>
+//     )
+// }
+
+export default function Card() {
     return (
-        <TouchableOpacity
-            onPress={() => props.navigation.navigate('HomeDetails', { 
-                houseId: props.id 
-            }) }
-        >
-            <View style={ styles.card }>
-            <View style={ styles.container }>
-                <Text style={ styles.title }>
-                    { props.title.length > 30 ? props.title.slice(0, 30) + '...' : props.title }
-                    </Text>
+        <View style={styles.card}>
+            {/* <View style={ styles.imageWrapper }>
+                
             </View>
-            <View style={ styles.imageContainer }>
-                <ImageBackground source={{ uri: props.image }} style={ styles.image }>
-                    <Text style={ styles.price }>{ props.price }</Text>
-                    <View style={ styles.year }>
-                        <Text style={ styles.yearText }>{ props.yearBuilt }</Text>
-                    </View>
-                </ImageBackground>
+            <View style={styles.titleWrapper}>
+                <Text>Dummy Title</Text>
             </View>
-            <View style={ styles.description }>
-                <Text style={ styles.descriptionText }>
-                { props.description.length > 100 ? props.description.slice(0, 100) + '...' : props.description }
-                </Text>
-            </View>
-            </View>
-        </TouchableOpacity>
-    )
+            <View style={styles.descriptionWrapper}>
+                <Text>This is a dummy description</Text>
+                <ModalComp />
+            </View> */}
+            <ModalComp />
+        </View>
+        
+    );
 }
 
 const styles = StyleSheet.create({

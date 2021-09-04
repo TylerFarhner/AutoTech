@@ -4,10 +4,8 @@ import { createStackNavigator } from '@react-navigation/stack'
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs'
 import { MaterialIcons } from '@expo/vector-icons'
 
-import AboutScreen from '../screens/AboutScreen'
-import AddHomeScreen from '../screens/AddHomeScreen'
-import HomeDetailsScreen from '../screens/HomeDetailsScreen'
-import HomeListScreen from '../screens/HomeListScreen'
+import HomeScreen from '../screens/HomeScreen'
+import GMScreen from '../screens/GMScreen'
 
 
 const Stack = createStackNavigator()
@@ -17,28 +15,23 @@ function stackNavigator () {
     return(
         <Stack.Navigator>
             <Stack.Screen 
-                name="HomeList"
-                component={HomeListScreen}
-                options={{title: 'HomeHunt'}}
+                name="Indicator Lights"
+                component={HomeScreen}
             />
             <Stack.Screen 
-                name="HomeDetails"
-                component={HomeDetailsScreen}
-            />
-            <Stack.Screen 
-                name="AddHome"
-                component={AddHomeScreen}
+                name="Details"
+                component={GMScreen}
             />
         </Stack.Navigator>
     );
 }
 
-function AboutStackNavigator() {
+function GMStackNavigator() {
     return(
         <Stack.Navigator>
             <Stack.Screen 
-                name="About"
-                component={ AboutScreen }
+                name="General Maintenance"
+                component={ GMScreen }
             />
         </Stack.Navigator>
     )
@@ -52,9 +45,9 @@ function AppNavigator() {
                 screenOptions={({ route }) => ({
                     tabBarIcon: () => {
                         let iconName;
-                        if(route.name=="Home") {
+                        if(route.name=="Indicator Lights") {
                             iconName = "home"
-                        } else if(route.name=="About") {
+                        } else if(route.name=="General Maintenance") {
                             iconName = "info"
                         }
 
@@ -62,15 +55,17 @@ function AppNavigator() {
                     }
                 })}
             // ---------- /ICONS ----------------
+
+            // ---------- BOTTOM NAMES ----------- 
             >
                 <Tab.Screen 
-                    name="Home"
+                    name="Indicator Lights"
                     component={ stackNavigator }
                 />
 
                 <Tab.Screen 
-                    name="About"
-                    component={ AboutStackNavigator }
+                    name="General Maintenance"
+                    component={ GMStackNavigator }
                 />
             </Tab.Navigator>
         </NavigationContainer>

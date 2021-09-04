@@ -1,11 +1,11 @@
 import React from "react";
 import {StyleSheet, View, Text} from 'react-native'
 
-const AboutScreen = () => {
+const GMScreen = () => {
 
     return(
         <View>
-            <Text>About Screen</Text>
+            <Text>General Maintenance Screen</Text>
         </View>
     )
 
@@ -15,4 +15,4 @@ const styles = StyleSheet.create({
     
 })
 
-export default AboutScreen;
+export default GMScreen;
