@@ -1,11 +1,11 @@
 import React from "react";
 import {StyleSheet, View, Text} from 'react-native'
 
-const EngineScreen = () => {
+const TransScreen = () => {
 
     return(
         <View>
-            <Text>Engine Screen</Text>
+            <Text>Transmission Screen</Text>
         </View>
     )
 
@@ -15,4 +15,4 @@ const styles = StyleSheet.create({
     
 })
 
-export default EngineScreen;
+export default TransScreen;

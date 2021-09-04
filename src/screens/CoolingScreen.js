@@ -1,11 +1,11 @@
 import React from "react";
 import {StyleSheet, View, Text} from 'react-native'
 
-const EngineScreen = () => {
+const CoolingScreen = () => {
 
     return(
         <View>
-            <Text>Engine Screen</Text>
+            <Text>Cooling Screen</Text>
         </View>
     )
 
@@ -15,4 +15,4 @@ const styles = StyleSheet.create({
     
 })
 
-export default EngineScreen;
+export default CoolingScreen;
