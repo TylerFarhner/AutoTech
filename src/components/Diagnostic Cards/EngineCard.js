@@ -3,13 +3,11 @@ import { View, Text, StyleSheet, ImageBackground, TouchableOpacity } from 'react
 
 export default function EngineCard(props) {
     return (
-        <TouchableOpacity onPress={() => props.navigation.navigate('EngineScreen')}>
             <View style={styles.card}>
                 <View style={styles.titleWrapper}>
                     <Text>Engine Maintenance</Text>
                 </View>
             </View>
-        </TouchableOpacity>
         
     );
 }
