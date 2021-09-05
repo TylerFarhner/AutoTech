@@ -1,0 +1,60 @@
+"filename", "language", "JSON", "JavaScript", "comment", "blank", "total"
+"c:\Users\miste\Documents\Coding\home-listing-client-\.expo-shared\assets.json", "JSON", 4, 0, 0, 1, 5
+"c:\Users\miste\Documents\Coding\home-listing-client-\App.js", "JavaScript", 0, 17, 0, 4, 21
+"c:\Users\miste\Documents\Coding\home-listing-client-\app.json", "JSON", 17, 0, 16, 0, 33
+"c:\Users\miste\Documents\Coding\home-listing-client-\babel.config.js", "JavaScript", 0, 6, 0, 1, 7
+"c:\Users\miste\Documents\Coding\home-listing-client-\package-lock.json", "JSON", 18764, 0, 0, 1, 18765
+"c:\Users\miste\Documents\Coding\home-listing-client-\package.json", "JSON", 39, 0, 0, 1, 40
+"c:\Users\miste\Documents\Coding\home-listing-client-\src\components\Card.js", "JavaScript", 0, 70, 38, 7, 115
+"c:\Users\miste\Documents\Coding\home-listing-client-\src\components\Diagnostic Cards\ACCard.js", "JavaScript", 0, 26, 0, 4, 30
+"c:\Users\miste\Documents\Coding\home-listing-client-\src\components\Diagnostic Cards\BrakeCard.js", "JavaScript", 0, 26, 0, 4, 30
+"c:\Users\miste\Documents\Coding\home-listing-client-\src\components\Diagnostic Cards\CoolingCard.js", "JavaScript", 0, 26, 0, 4, 30
+"c:\Users\miste\Documents\Coding\home-listing-client-\src\components\Diagnostic Cards\DiffCard.js", "JavaScript", 0, 26, 0, 4, 30
+"c:\Users\miste\Documents\Coding\home-listing-client-\src\components\Diagnostic Cards\EngineCard.js", "JavaScript", 0, 26, 0, 4, 30
+"c:\Users\miste\Documents\Coding\home-listing-client-\src\components\Diagnostic Cards\SuspensionCard.js", "JavaScript", 0, 26, 0, 4, 30
+"c:\Users\miste\Documents\Coding\home-listing-client-\src\components\Diagnostic Cards\TransCard.js", "JavaScript", 0, 26, 0, 4, 30
+"c:\Users\miste\Documents\Coding\home-listing-client-\src\components\Diagnostic Cards\WheelsTiresCard.js", "JavaScript", 0, 26, 0, 4, 30
+"c:\Users\miste\Documents\Coding\home-listing-client-\src\components\Header.js", "JavaScript", 0, 24, 0, 5, 29
+"c:\Users\miste\Documents\Coding\home-listing-client-\src\components\Indicator Lights\ABSLight.js", "JavaScript", 0, 74, 0, 4, 78
+"c:\Users\miste\Documents\Coding\home-listing-client-\src\components\Indicator Lights\AirbagSRSLight.js", "JavaScript", 0, 74, 0, 4, 78
+"c:\Users\miste\Documents\Coding\home-listing-client-\src\components\Indicator Lights\BatteryLight.js", "JavaScript", 0, 74, 0, 4, 78
+"c:\Users\miste\Documents\Coding\home-listing-client-\src\components\Indicator Lights\BrakeLight.js", "JavaScript", 0, 74, 0, 4, 78
+"c:\Users\miste\Documents\Coding\home-listing-client-\src\components\Indicator Lights\CELFlashLight.js", "JavaScript", 0, 74, 0, 4, 78
+"c:\Users\miste\Documents\Coding\home-listing-client-\src\components\Indicator Lights\CELLight.js", "JavaScript", 0, 74, 0, 4, 78
+"c:\Users\miste\Documents\Coding\home-listing-client-\src\components\Indicator Lights\CabinAirLight.js", "JavaScript", 0, 74, 0, 4, 78
+"c:\Users\miste\Documents\Coding\home-listing-client-\src\components\Indicator Lights\CatalyticConverterLight.js", "JavaScript", 0, 74, 0, 4, 78
+"c:\Users\miste\Documents\Coding\home-listing-client-\src\components\Indicator Lights\CircleDashesLight.js", "JavaScript", 0, 74, 0, 4, 78
+"c:\Users\miste\Documents\Coding\home-listing-client-\src\components\Indicator Lights\DoorAjarLight.js", "JavaScript", 0, 0, 0, 1, 1
+"c:\Users\miste\Documents\Coding\home-listing-client-\src\components\Indicator Lights\DrivetrainLight.js", "JavaScript", 0, 74, 0, 4, 78
+"c:\Users\miste\Documents\Coding\home-listing-client-\src\components\Indicator Lights\FogLampLight.js", "JavaScript", 0, 74, 0, 4, 78
+"c:\Users\miste\Documents\Coding\home-listing-client-\src\components\Indicator Lights\GasCapLight.js", "JavaScript", 0, 74, 0, 4, 78
+"c:\Users\miste\Documents\Coding\home-listing-client-\src\components\Indicator Lights\LaneAssistLight.js", "JavaScript", 0, 74, 0, 4, 78
+"c:\Users\miste\Documents\Coding\home-listing-client-\src\components\Indicator Lights\LightBulbLight.js", "JavaScript", 0, 74, 0, 4, 78
+"c:\Users\miste\Documents\Coding\home-listing-client-\src\components\Indicator Lights\OilPressureLight.js", "JavaScript", 0, 75, 0, 4, 79
+"c:\Users\miste\Documents\Coding\home-listing-client-\src\components\Indicator Lights\ParkAssistLight.js", "JavaScript", 0, 74, 0, 4, 78
+"c:\Users\miste\Documents\Coding\home-listing-client-\src\components\Indicator Lights\ParkingBrakeLight.js", "JavaScript", 0, 74, 0, 4, 78
+"c:\Users\miste\Documents\Coding\home-listing-client-\src\components\Indicator Lights\PressBrakeLight.js", "JavaScript", 0, 75, 0, 4, 79
+"c:\Users\miste\Documents\Coding\home-listing-client-\src\components\Indicator Lights\PressClutchLight.js", "JavaScript", 0, 74, 0, 4, 78
+"c:\Users\miste\Documents\Coding\home-listing-client-\src\components\Indicator Lights\RapidTurnSignalLight.js", "JavaScript", 0, 74, 0, 4, 78
+"c:\Users\miste\Documents\Coding\home-listing-client-\src\components\Indicator Lights\SteeringWheelLight.js", "JavaScript", 0, 74, 0, 4, 78
+"c:\Users\miste\Documents\Coding\home-listing-client-\src\components\Indicator Lights\TempGaugeLight.js", "JavaScript", 0, 74, 0, 4, 78
+"c:\Users\miste\Documents\Coding\home-listing-client-\src\components\Indicator Lights\TireBlinkingLight.js", "JavaScript", 0, 74, 0, 4, 78
+"c:\Users\miste\Documents\Coding\home-listing-client-\src\components\Indicator Lights\TractionControlLight.js", "JavaScript", 0, 74, 0, 4, 78
+"c:\Users\miste\Documents\Coding\home-listing-client-\src\components\Indicator Lights\TransmissionLight.js", "JavaScript", 0, 74, 0, 4, 78
+"c:\Users\miste\Documents\Coding\home-listing-client-\src\components\Indicator Lights\TriangleExclamationLight.js", "JavaScript", 0, 74, 0, 4, 78
+"c:\Users\miste\Documents\Coding\home-listing-client-\src\components\Indicator Lights\TrunkLight.js", "JavaScript", 0, 74, 0, 4, 78
+"c:\Users\miste\Documents\Coding\home-listing-client-\src\components\Indicator Lights\WindshieldLight.js", "JavaScript", 0, 74, 0, 4, 78
+"c:\Users\miste\Documents\Coding\home-listing-client-\src\components\Modal.js", "JavaScript", 0, 74, 0, 4, 78
+"c:\Users\miste\Documents\Coding\home-listing-client-\src\navigation\AppNavigator.js", "JavaScript", 0, 100, 5, 10, 115
+"c:\Users\miste\Documents\Coding\home-listing-client-\src\screens\ACScreen.js", "JavaScript", 0, 15, 0, 7, 22
+"c:\Users\miste\Documents\Coding\home-listing-client-\src\screens\AboutScreen.js", "JavaScript", 0, 12, 0, 6, 18
+"c:\Users\miste\Documents\Coding\home-listing-client-\src\screens\BrakeScreen.js", "JavaScript", 0, 28, 0, 11, 39
+"c:\Users\miste\Documents\Coding\home-listing-client-\src\screens\CoolingScreen.js", "JavaScript", 0, 19, 0, 10, 29
+"c:\Users\miste\Documents\Coding\home-listing-client-\src\screens\DiffScreen.js", "JavaScript", 0, 18, 0, 11, 29
+"c:\Users\miste\Documents\Coding\home-listing-client-\src\screens\EngineScreen.js", "JavaScript", 0, 39, 0, 7, 46
+"c:\Users\miste\Documents\Coding\home-listing-client-\src\screens\GMScreen.js", "JavaScript", 0, 44, 1, 15, 60
+"c:\Users\miste\Documents\Coding\home-listing-client-\src\screens\HomeScreen.js", "JavaScript", 0, 106, 2, 21, 129
+"c:\Users\miste\Documents\Coding\home-listing-client-\src\screens\SuspensionScreen.js", "JavaScript", 0, 21, 0, 11, 32
+"c:\Users\miste\Documents\Coding\home-listing-client-\src\screens\TransScreen.js", "JavaScript", 0, 18, 0, 11, 29
+"c:\Users\miste\Documents\Coding\home-listing-client-\src\screens\WheelsTiresScreen.js", "JavaScript", 0, 21, 0, 11, 32
+"Total", "-", 18824, 2914, 62, 300, 22100

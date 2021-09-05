@@ -1,0 +1,90 @@
+Date : 2021-09-04 21:32:27
+Directory : c:\Users\miste\Documents\Coding\home-listing-client-
+Total : 58 files,  21738 codes, 62 comments, 300 blanks, all 22100 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| JSON       |          4 |     18,824 |         16 |          3 |     18,843 |
+| JavaScript |         54 |      2,914 |         46 |        297 |      3,257 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                             | files      | code       | comment    | blank      | total      |
++------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                                |         58 |     21,738 |         62 |        300 |     22,100 |
+| .expo-shared                                                                                                     |          1 |          4 |          0 |          1 |          5 |
+| src                                                                                                              |         52 |      2,891 |         46 |        292 |      3,229 |
+| src\components                                                                                                   |         40 |      2,450 |         38 |        161 |      2,649 |
+| src\components\Diagnostic Cards                                                                                  |          8 |        208 |          0 |         32 |        240 |
+| src\components\Indicator Lights                                                                                  |         29 |      2,074 |          0 |        113 |      2,187 |
+| src\navigation                                                                                                   |          1 |        100 |          5 |         10 |        115 |
+| src\screens                                                                                                      |         11 |        341 |          3 |        121 |        465 |
++------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                                                                                         | language   | code       | comment    | blank      | total      |
++------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| c:\Users\miste\Documents\Coding\home-listing-client-\.expo-shared\assets.json                                    | JSON       |          4 |          0 |          1 |          5 |
+| c:\Users\miste\Documents\Coding\home-listing-client-\App.js                                                      | JavaScript |         17 |          0 |          4 |         21 |
+| c:\Users\miste\Documents\Coding\home-listing-client-\app.json                                                    | JSON       |         17 |         16 |          0 |         33 |
+| c:\Users\miste\Documents\Coding\home-listing-client-\babel.config.js                                             | JavaScript |          6 |          0 |          1 |          7 |
+| c:\Users\miste\Documents\Coding\home-listing-client-\package-lock.json                                           | JSON       |     18,764 |          0 |          1 |     18,765 |
+| c:\Users\miste\Documents\Coding\home-listing-client-\package.json                                                | JSON       |         39 |          0 |          1 |         40 |
+| c:\Users\miste\Documents\Coding\home-listing-client-\src\components\Card.js                                      | JavaScript |         70 |         38 |          7 |        115 |
+| c:\Users\miste\Documents\Coding\home-listing-client-\src\components\Diagnostic Cards\ACCard.js                   | JavaScript |         26 |          0 |          4 |         30 |
+| c:\Users\miste\Documents\Coding\home-listing-client-\src\components\Diagnostic Cards\BrakeCard.js                | JavaScript |         26 |          0 |          4 |         30 |
+| c:\Users\miste\Documents\Coding\home-listing-client-\src\components\Diagnostic Cards\CoolingCard.js              | JavaScript |         26 |          0 |          4 |         30 |
+| c:\Users\miste\Documents\Coding\home-listing-client-\src\components\Diagnostic Cards\DiffCard.js                 | JavaScript |         26 |          0 |          4 |         30 |
+| c:\Users\miste\Documents\Coding\home-listing-client-\src\components\Diagnostic Cards\EngineCard.js               | JavaScript |         26 |          0 |          4 |         30 |
+| c:\Users\miste\Documents\Coding\home-listing-client-\src\components\Diagnostic Cards\SuspensionCard.js           | JavaScript |         26 |          0 |          4 |         30 |
+| c:\Users\miste\Documents\Coding\home-listing-client-\src\components\Diagnostic Cards\TransCard.js                | JavaScript |         26 |          0 |          4 |         30 |
+| c:\Users\miste\Documents\Coding\home-listing-client-\src\components\Diagnostic Cards\WheelsTiresCard.js          | JavaScript |         26 |          0 |          4 |         30 |
+| c:\Users\miste\Documents\Coding\home-listing-client-\src\components\Header.js                                    | JavaScript |         24 |          0 |          5 |         29 |
+| c:\Users\miste\Documents\Coding\home-listing-client-\src\components\Indicator Lights\ABSLight.js                 | JavaScript |         74 |          0 |          4 |         78 |
+| c:\Users\miste\Documents\Coding\home-listing-client-\src\components\Indicator Lights\AirbagSRSLight.js           | JavaScript |         74 |          0 |          4 |         78 |
+| c:\Users\miste\Documents\Coding\home-listing-client-\src\components\Indicator Lights\BatteryLight.js             | JavaScript |         74 |          0 |          4 |         78 |
+| c:\Users\miste\Documents\Coding\home-listing-client-\src\components\Indicator Lights\BrakeLight.js               | JavaScript |         74 |          0 |          4 |         78 |
+| c:\Users\miste\Documents\Coding\home-listing-client-\src\components\Indicator Lights\CELFlashLight.js            | JavaScript |         74 |          0 |          4 |         78 |
+| c:\Users\miste\Documents\Coding\home-listing-client-\src\components\Indicator Lights\CELLight.js                 | JavaScript |         74 |          0 |          4 |         78 |
+| c:\Users\miste\Documents\Coding\home-listing-client-\src\components\Indicator Lights\CabinAirLight.js            | JavaScript |         74 |          0 |          4 |         78 |
+| c:\Users\miste\Documents\Coding\home-listing-client-\src\components\Indicator Lights\CatalyticConverterLight.js  | JavaScript |         74 |          0 |          4 |         78 |
+| c:\Users\miste\Documents\Coding\home-listing-client-\src\components\Indicator Lights\CircleDashesLight.js        | JavaScript |         74 |          0 |          4 |         78 |
+| c:\Users\miste\Documents\Coding\home-listing-client-\src\components\Indicator Lights\DoorAjarLight.js            | JavaScript |          0 |          0 |          1 |          1 |
+| c:\Users\miste\Documents\Coding\home-listing-client-\src\components\Indicator Lights\DrivetrainLight.js          | JavaScript |         74 |          0 |          4 |         78 |
+| c:\Users\miste\Documents\Coding\home-listing-client-\src\components\Indicator Lights\FogLampLight.js             | JavaScript |         74 |          0 |          4 |         78 |
+| c:\Users\miste\Documents\Coding\home-listing-client-\src\components\Indicator Lights\GasCapLight.js              | JavaScript |         74 |          0 |          4 |         78 |
+| c:\Users\miste\Documents\Coding\home-listing-client-\src\components\Indicator Lights\LaneAssistLight.js          | JavaScript |         74 |          0 |          4 |         78 |
+| c:\Users\miste\Documents\Coding\home-listing-client-\src\components\Indicator Lights\LightBulbLight.js           | JavaScript |         74 |          0 |          4 |         78 |
+| c:\Users\miste\Documents\Coding\home-listing-client-\src\components\Indicator Lights\OilPressureLight.js         | JavaScript |         75 |          0 |          4 |         79 |
+| c:\Users\miste\Documents\Coding\home-listing-client-\src\components\Indicator Lights\ParkAssistLight.js          | JavaScript |         74 |          0 |          4 |         78 |
+| c:\Users\miste\Documents\Coding\home-listing-client-\src\components\Indicator Lights\ParkingBrakeLight.js        | JavaScript |         74 |          0 |          4 |         78 |
+| c:\Users\miste\Documents\Coding\home-listing-client-\src\components\Indicator Lights\PressBrakeLight.js          | JavaScript |         75 |          0 |          4 |         79 |
+| c:\Users\miste\Documents\Coding\home-listing-client-\src\components\Indicator Lights\PressClutchLight.js         | JavaScript |         74 |          0 |          4 |         78 |
+| c:\Users\miste\Documents\Coding\home-listing-client-\src\components\Indicator Lights\RapidTurnSignalLight.js     | JavaScript |         74 |          0 |          4 |         78 |
+| c:\Users\miste\Documents\Coding\home-listing-client-\src\components\Indicator Lights\SteeringWheelLight.js       | JavaScript |         74 |          0 |          4 |         78 |
+| c:\Users\miste\Documents\Coding\home-listing-client-\src\components\Indicator Lights\TempGaugeLight.js           | JavaScript |         74 |          0 |          4 |         78 |
+| c:\Users\miste\Documents\Coding\home-listing-client-\src\components\Indicator Lights\TireBlinkingLight.js        | JavaScript |         74 |          0 |          4 |         78 |
+| c:\Users\miste\Documents\Coding\home-listing-client-\src\components\Indicator Lights\TractionControlLight.js     | JavaScript |         74 |          0 |          4 |         78 |
+| c:\Users\miste\Documents\Coding\home-listing-client-\src\components\Indicator Lights\TransmissionLight.js        | JavaScript |         74 |          0 |          4 |         78 |
+| c:\Users\miste\Documents\Coding\home-listing-client-\src\components\Indicator Lights\TriangleExclamationLight.js | JavaScript |         74 |          0 |          4 |         78 |
+| c:\Users\miste\Documents\Coding\home-listing-client-\src\components\Indicator Lights\TrunkLight.js               | JavaScript |         74 |          0 |          4 |         78 |
+| c:\Users\miste\Documents\Coding\home-listing-client-\src\components\Indicator Lights\WindshieldLight.js          | JavaScript |         74 |          0 |          4 |         78 |
+| c:\Users\miste\Documents\Coding\home-listing-client-\src\components\Modal.js                                     | JavaScript |         74 |          0 |          4 |         78 |
+| c:\Users\miste\Documents\Coding\home-listing-client-\src\navigation\AppNavigator.js                              | JavaScript |        100 |          5 |         10 |        115 |
+| c:\Users\miste\Documents\Coding\home-listing-client-\src\screens\ACScreen.js                                     | JavaScript |         15 |          0 |          7 |         22 |
+| c:\Users\miste\Documents\Coding\home-listing-client-\src\screens\AboutScreen.js                                  | JavaScript |         12 |          0 |          6 |         18 |
+| c:\Users\miste\Documents\Coding\home-listing-client-\src\screens\BrakeScreen.js                                  | JavaScript |         28 |          0 |         11 |         39 |
+| c:\Users\miste\Documents\Coding\home-listing-client-\src\screens\CoolingScreen.js                                | JavaScript |         19 |          0 |         10 |         29 |
+| c:\Users\miste\Documents\Coding\home-listing-client-\src\screens\DiffScreen.js                                   | JavaScript |         18 |          0 |         11 |         29 |
+| c:\Users\miste\Documents\Coding\home-listing-client-\src\screens\EngineScreen.js                                 | JavaScript |         39 |          0 |          7 |         46 |
+| c:\Users\miste\Documents\Coding\home-listing-client-\src\screens\GMScreen.js                                     | JavaScript |         44 |          1 |         15 |         60 |
+| c:\Users\miste\Documents\Coding\home-listing-client-\src\screens\HomeScreen.js                                   | JavaScript |        106 |          2 |         21 |        129 |
+| c:\Users\miste\Documents\Coding\home-listing-client-\src\screens\SuspensionScreen.js                             | JavaScript |         21 |          0 |         11 |         32 |
+| c:\Users\miste\Documents\Coding\home-listing-client-\src\screens\TransScreen.js                                  | JavaScript |         18 |          0 |         11 |         29 |
+| c:\Users\miste\Documents\Coding\home-listing-client-\src\screens\WheelsTiresScreen.js                            | JavaScript |         21 |          0 |         11 |         32 |
+| Total                                                                                                            |            |     21,738 |         62 |        300 |     22,100 |
++------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
