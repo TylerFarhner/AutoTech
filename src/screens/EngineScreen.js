@@ -6,7 +6,7 @@ import UnorderedList from 'react-native-unordered-list'
 const EngineScreen = () => {
 
     return(
-        <View>
+        <View style={styles.container}>
             <UnorderedList>
                 <Text>Engine oil to be replaced along with oil filter every 5,000 to 7,000 miles(or depending on usage)</Text>
             </UnorderedList>
@@ -40,7 +40,11 @@ const EngineScreen = () => {
 }
 
 const styles = StyleSheet.create({
-    
+    container: {
+        justifyContent: 'center',
+        alignItems: 'center',
+        padding: 50
+    }
 })
 
 export default EngineScreen;

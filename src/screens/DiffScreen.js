@@ -6,7 +6,7 @@ import UnorderedList from 'react-native-unordered-list'
 const DiffScreen = () => {
 
     return(
-        <View>
+        <View style={styles.container}>
 
             <UnorderedList>
                 <Text>Differential fluid should be replaced every 30,000 to 60,000 miles</Text>
@@ -23,7 +23,11 @@ const DiffScreen = () => {
 }
 
 const styles = StyleSheet.create({
-    
+    container: {
+        justifyContent: 'center',
+        alignItems: 'center',
+        padding: 50
+    }
 })
 
 export default DiffScreen;

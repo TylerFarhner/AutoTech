@@ -6,7 +6,7 @@ import UnorderedList from 'react-native-unordered-list'
 const TransScreen = () => {
 
     return(
-        <View>
+        <View style={styles.container}>
 
             <UnorderedList>
                 <Text>Check transmission fluid periodically, typical transmission fluid color is a cherry red so inspect for discoloration and fluid condition</Text>
@@ -23,7 +23,11 @@ const TransScreen = () => {
 }
 
 const styles = StyleSheet.create({
-    
+    container: {
+        justifyContent: 'center',
+        alignItems: 'center',
+        padding: 50
+    }
 })
 
 export default TransScreen;

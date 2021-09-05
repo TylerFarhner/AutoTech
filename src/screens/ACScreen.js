@@ -6,7 +6,7 @@ import UnorderedList from 'react-native-unordered-list'
 const ACScreen = () => {
 
     return(
-        <View>
+        <View style={styles.container}>
             <UnorderedList>
                 <Text>Refill A/C unit with fresh refrigerant every 1-2 years.</Text>
             </UnorderedList>
@@ -16,7 +16,11 @@ const ACScreen = () => {
 }
 
 const styles = StyleSheet.create({
-    
+    container: {
+        justifyContent: 'center',
+        alignItems: 'center',
+        padding: 50
+    }
 })
 
 export default ACScreen;

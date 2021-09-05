@@ -6,7 +6,7 @@ import UnorderedList from 'react-native-unordered-list'
 const CoolingScreen = () => {
 
     return(
-        <View>
+        <View style={styles.container}>
 
             <UnorderedList>
                 <Text>Coolant flush depends on type of coolant the manufacturer requires for the vehicle and the amount of vehicle usage,
@@ -23,7 +23,11 @@ const CoolingScreen = () => {
 }
 
 const styles = StyleSheet.create({
-    
+    container: {
+        justifyContent: 'center',
+        alignItems: 'center',
+        padding: 50
+    }
 })
 
 export default CoolingScreen;

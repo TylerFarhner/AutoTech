@@ -6,7 +6,7 @@ import UnorderedList from 'react-native-unordered-list'
 const SuspensionScreen = () => {
 
     return(
-        <View>
+        <View style={styles.container}>
 
             <UnorderedList>
                 <Text>Suspension/Steering(most are lifetime fitment/usually require replacement only when damaged or during heavy driving conditions)</Text>
@@ -26,7 +26,11 @@ const SuspensionScreen = () => {
 }
 
 const styles = StyleSheet.create({
-    
+    container: {
+        justifyContent: 'center',
+        alignItems: 'center',
+        padding: 50
+    }
 })
 
 export default SuspensionScreen;

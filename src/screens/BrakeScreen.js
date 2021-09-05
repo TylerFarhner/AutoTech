@@ -6,7 +6,7 @@ import UnorderedList from 'react-native-unordered-list'
 const BrakeScreen = () => {
 
     return(
-        <View>
+        <View style={styles.container}>
 
             <UnorderedList>
                 <Text>Brake pad/rotor/caliper maintenance depends on brake usage</Text>
@@ -33,7 +33,11 @@ const BrakeScreen = () => {
 }
 
 const styles = StyleSheet.create({
-    
+    container: {
+        justifyContent: 'center',
+        alignItems: 'center',
+        padding: 50
+    }
 })
 
 export default BrakeScreen;

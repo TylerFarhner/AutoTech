@@ -6,7 +6,7 @@ import UnorderedList from 'react-native-unordered-list'
 const WheelsTiresScreen = () => {
 
     return(
-        <View>
+        <View style={styles.container}>
 
             <UnorderedList>
                 <Text>Tire information written on the sidewall of the tire. It includes tire size and fitment to wheel(rim), as well as max pressure</Text>
@@ -26,7 +26,11 @@ const WheelsTiresScreen = () => {
 }
 
 const styles = StyleSheet.create({
-    
+    container: {
+        justifyContent: 'center',
+        alignItems: 'center',
+        padding: 50
+    }
 })
 
 export default WheelsTiresScreen;
