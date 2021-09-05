@@ -5,6 +5,8 @@ import ModalComp from '../components/Modal'
 import OilPressureLight from '../components/Indicator Lights/OilPressureLight'
 import CELLight from "../components/Indicator Lights/CELLight";
 import CELFlashLight from "../components/Indicator Lights/CELFlashLight";
+import RapidTurnSignalLight from "../components/Indicator Lights/RapidTurnSignalLight";
+import LightBulbLight from "../components/Indicator Lights/LightBulbLight";
 
 const HomeScreen = () => {
 
@@ -13,7 +15,8 @@ const HomeScreen = () => {
             <OilPressureLight />
             <CELLight />
             <CELFlashLight />
-            <ModalComp />
+            <RapidTurnSignalLight />
+            <LightBulbLight />
             {/* <Card />
             <Card /> */}
         </View>
