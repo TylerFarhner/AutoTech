@@ -1,5 +1,6 @@
 import React from "react";
 import {StyleSheet, View, Text} from 'react-native'
+import { ScrollView } from "react-native-gesture-handler";
 
 import ModalComp from '../components/Modal'
 import OilPressureLight from '../components/Indicator Lights/OilPressureLight'
@@ -9,27 +10,76 @@ import RapidTurnSignalLight from "../components/Indicator Lights/RapidTurnSignal
 import LightBulbLight from "../components/Indicator Lights/LightBulbLight";
 import TempGaugeLight from "../components/Indicator Lights/TempGaugeLight";
 import TireBlinkingLight from "../components/Indicator Lights/TireBlinkingLight";
-import { ScrollView } from "react-native-gesture-handler";
+import AirbagSRSLight from "../components/Indicator Lights/AirbagSRSLight";
+import TractionControlLight from "../components/Indicator Lights/TractionControlLight";
+import TrunkLight from "../components/Indicator Lights/TrunkLight";
+import WindshieldLight from "../components/Indicator Lights/WindshieldLight";
+import FogLampLight from "../components/Indicator Lights/FogLampLight";
+import BatteryLight from "../components/Indicator Lights/BatteryLight";
+import TransmissionLight from '../components/Indicator Lights/TransmissionLight';
+import DrivetrainLight from '../components/Indicator Lights/DrivetrainLight';
+import BrakeLight from '../components/Indicator Lights/BrakeLight';
 
 const HomeScreen = () => {
 
     return(
         <ScrollView>
             <View style={styles.container}>
+
                 <View style={styles.row}>
                     <OilPressureLight />
                     <CELLight />
                 </View>
+
                 <View style={styles.row}>
                     <CELFlashLight />
                     <RapidTurnSignalLight />
                 </View>
+
                 <View style={styles.row}>
                     <LightBulbLight />
                     <TempGaugeLight />
                 </View>
+
                 <View style={styles.row}>
                     <TireBlinkingLight />
+                    <AirbagSRSLight />
+                </View>
+
+                <View style={styles.row}>
+                    <TractionControlLight />
+                    <TrunkLight />
+                </View>
+
+                <View style={styles.row}>
+                    <WindshieldLight />
+                    <FogLampLight />
+                </View>
+
+                <View style={styles.row}>
+                    <BatteryLight />
+                </View>
+
+                <View style={styles.row}>
+
+                </View>
+                <View style={styles.row}>
+
+                </View>
+                <View style={styles.row}>
+
+                </View>
+                <View style={styles.row}>
+
+                </View>
+                <View style={styles.row}>
+
+                </View>
+                <View style={styles.row}>
+
+                </View>
+                <View style={styles.row}>
+
                 </View>
             </View>
         </ScrollView>
