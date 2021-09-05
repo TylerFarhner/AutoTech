@@ -7,28 +7,44 @@ import CELLight from "../components/Indicator Lights/CELLight";
 import CELFlashLight from "../components/Indicator Lights/CELFlashLight";
 import RapidTurnSignalLight from "../components/Indicator Lights/RapidTurnSignalLight";
 import LightBulbLight from "../components/Indicator Lights/LightBulbLight";
+import TempGaugeLight from "../components/Indicator Lights/TempGaugeLight";
+import TireBlinkingLight from "../components/Indicator Lights/TireBlinkingLight";
+import { ScrollView } from "react-native-gesture-handler";
 
 const HomeScreen = () => {
 
     return(
-        <View style={styles.layout}>
-            <OilPressureLight />
-            <CELLight />
-            <CELFlashLight />
-            <RapidTurnSignalLight />
-            <LightBulbLight />
-            {/* <Card />
-            <Card /> */}
-        </View>
+        <ScrollView>
+            <View style={styles.container}>
+                <View style={styles.row}>
+                    <OilPressureLight />
+                    <CELLight />
+                </View>
+                <View style={styles.row}>
+                    <CELFlashLight />
+                    <RapidTurnSignalLight />
+                </View>
+                <View style={styles.row}>
+                    <LightBulbLight />
+                    <TempGaugeLight />
+                </View>
+                <View style={styles.row}>
+                    <TireBlinkingLight />
+                </View>
+            </View>
+        </ScrollView>
     )
 
 }
 
 const styles = StyleSheet.create({
-    layout: {
-        flexDirection: 'row',
-        justifyContent: "space-evenly",
-        padding: 10,
+    container: {
+        flex: 1,
+        alignItems: 'center',
+        justifyContent: 'center'
+    },
+    row: {
+        flexDirection: 'row'
     }
 })
 
