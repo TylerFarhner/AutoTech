@@ -70,29 +70,44 @@ const HomeScreen = () => {
 
                 <View style={styles.row}>
                     <BatteryLight />
+                    <TransmissionLight />
                 </View>
 
                 <View style={styles.row}>
-
+                    <DrivetrainLight />
+                    <BrakeLight />
                 </View>
+
                 <View style={styles.row}>
-
+                    <GasCapLight />
+                    <PressBrakeLight />
                 </View>
+
                 <View style={styles.row}>
-
+                    <PressClutchLight />
+                    <SteeringWheelLight />
                 </View>
+
                 <View style={styles.row}>
-
+                    <ParkingBrakeLight />
+                    <TriangleExclamationLight />
                 </View>
+
                 <View style={styles.row}>
-
+                    <CatalyticConverterLight />
+                    <CircleDashesLight />
                 </View>
+
                 <View style={styles.row}>
-
+                    <CabinAirLight />
+                    <LaneAssistLight />
                 </View>
+
                 <View style={styles.row}>
-
+                    <ABSLight />
+                    <ParkAssistLight />
                 </View>
+                
             </View>
         </ScrollView>
     )
