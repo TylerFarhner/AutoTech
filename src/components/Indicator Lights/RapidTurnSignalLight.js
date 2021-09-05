@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Alert, Modal, StyleSheet, Text, TouchableHighlight, View } from 'react-native';
+import { Alert, Modal, StyleSheet, Text, TouchableHighlight, View, Image } from 'react-native';
 
 export default function RapidTurnSignalLight() {
     const [modalVisible, setModalVisible] = useState(false);
@@ -32,7 +32,7 @@ export default function RapidTurnSignalLight() {
         onPress={() => {
           setModalVisible(true);
         }}>
-        <Text style={styles.textStyle}>Rapid Turn Signal</Text>
+        <Image source={require('../../../assets/images/IndicatorLights/TurnSignalLight.jpg')} />
       </TouchableHighlight>
     </View>
   );

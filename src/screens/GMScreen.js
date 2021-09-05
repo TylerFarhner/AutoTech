@@ -15,7 +15,7 @@ import DiffCard from "../components/Diagnostic Cards/DiffCard"
 const GMScreen = props => {
 
     return(
-        <ScrollView>
+        <ScrollView style={styles.container}>
             <TouchableOpacity onPress={() => props.navigation.navigate('Air Conditioning')}>
                 <ACCard />
             </TouchableOpacity>
@@ -54,7 +54,10 @@ const GMScreen = props => {
 }
 
 const styles = StyleSheet.create({
-    
+    container: {
+        backgroundColor: 'black',
+        padding: 20
+    }
 })
 
 export default GMScreen;
