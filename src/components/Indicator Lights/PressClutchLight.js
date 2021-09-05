@@ -14,7 +14,7 @@ export default function PressClutchLight() {
         }}>
         <View style={styles.centeredView}>
             <View style={styles.modalView}>
-            <Text style={styles.modalText}>Here is what the PressClutch Light means</Text>
+            <Text style={styles.modalText}>Press clutch pedal - indicator to push clutch</Text>
 
             <TouchableHighlight
                 style={{ ...styles.openButton, backgroundColor: 'black' }}

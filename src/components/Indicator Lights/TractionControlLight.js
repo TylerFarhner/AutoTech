@@ -14,7 +14,7 @@ export default function TractionControlLight() {
         }}>
         <View style={styles.centeredView}>
             <View style={styles.modalView}>
-            <Text style={styles.modalText}>Here is what the TractionControl Light means</Text>
+            <Text style={styles.modalText}>Traction control indicator - to inform you that the traction control function has been engaged</Text>
 
             <TouchableHighlight
                 style={{ ...styles.openButton, backgroundColor: 'black' }}

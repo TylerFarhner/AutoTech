@@ -14,7 +14,7 @@ export default function FogLampLight() {
         }}>
         <View style={styles.centeredView}>
             <View style={styles.modalView}>
-            <Text style={styles.modalText}>Here is what the FogLamp Light means</Text>
+            <Text style={styles.modalText}>Fog Lamp light - fog lights are turned on</Text>
 
             <TouchableHighlight
                 style={{ ...styles.openButton, backgroundColor: 'black' }}

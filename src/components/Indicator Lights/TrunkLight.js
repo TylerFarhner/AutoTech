@@ -14,7 +14,7 @@ export default function TrunkLight() {
         }}>
         <View style={styles.centeredView}>
             <View style={styles.modalView}>
-            <Text style={styles.modalText}>Here is what the Trunk Light means</Text>
+            <Text style={styles.modalText}>Trunk light - trunk lid is open</Text>
 
             <TouchableHighlight
                 style={{ ...styles.openButton, backgroundColor: 'black' }}

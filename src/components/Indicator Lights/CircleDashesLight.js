@@ -14,7 +14,7 @@ export default function CircleDashesLight() {
         }}>
         <View style={styles.centeredView}>
             <View style={styles.modalView}>
-            <Text style={styles.modalText}>Here is what the CircleDashes Light means</Text>
+            <Text style={styles.modalText}>Circle with dashes on sides - brake pad sensor - low brake pads (have pads and rotors inspected)</Text>
 
             <TouchableHighlight
                 style={{ ...styles.openButton, backgroundColor: 'black' }}

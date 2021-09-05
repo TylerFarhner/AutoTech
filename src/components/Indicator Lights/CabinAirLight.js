@@ -14,7 +14,7 @@ export default function CabinAirLight() {
         }}>
         <View style={styles.centeredView}>
             <View style={styles.modalView}>
-            <Text style={styles.modalText}>Here is what the CabinAir Light means</Text>
+            <Text style={styles.modalText}>Recirculated cabin air - recirculates air within the vehicle, best suitable for when driving through areas with poor air quality</Text>
 
             <TouchableHighlight
                 style={{ ...styles.openButton, backgroundColor: 'black' }}

@@ -14,7 +14,7 @@ export default function DrivetrainLight() {
         }}>
         <View style={styles.centeredView}>
             <View style={styles.modalView}>
-            <Text style={styles.modalText}>Here is what the Drivetrain Light means</Text>
+            <Text style={styles.modalText}>Drivetrain Malfunction - indicates an issue has been found in the powertrain or drivetrain system including transmissions, transaxle or shift connection</Text>
 
             <TouchableHighlight
                 style={{ ...styles.openButton, backgroundColor: 'black' }}

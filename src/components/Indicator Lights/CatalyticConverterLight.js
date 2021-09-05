@@ -14,7 +14,7 @@ export default function CatalyticConverterLight() {
         }}>
         <View style={styles.centeredView}>
             <View style={styles.modalView}>
-            <Text style={styles.modalText}>Here is what the CatalyticConverter Light means</Text>
+            <Text style={styles.modalText}>Catalytic converter light - indicates a catalytic converter malfunction</Text>
 
             <TouchableHighlight
                 style={{ ...styles.openButton, backgroundColor: 'black' }}

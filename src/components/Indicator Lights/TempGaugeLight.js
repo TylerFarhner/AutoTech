@@ -14,7 +14,9 @@ export default function TempGaugeLight() {
         }}>
         <View style={styles.centeredView}>
             <View style={styles.modalView}>
-            <Text style={styles.modalText}>Here is what the TempGauge/MIL Light means</Text>
+            <Text style={styles.modalText}>Temperature gauge - overheating/indicates engine temperature has exceeded normal limits
+                -- Low coolant/coolant leak
+            </Text>
 
             <TouchableHighlight
                 style={{ ...styles.openButton, backgroundColor: 'black' }}

@@ -14,7 +14,7 @@ export default function ABSLight() {
         }}>
         <View style={styles.centeredView}>
             <View style={styles.modalView}>
-            <Text style={styles.modalText}>Here is what the ABS Light means</Text>
+            <Text style={styles.modalText}>ABS light - vehicle computer detects a malfunction in the Anti-Lock Brake system</Text>
 
             <TouchableHighlight
                 style={{ ...styles.openButton, backgroundColor: 'black' }}

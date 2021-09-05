@@ -14,7 +14,9 @@ export default function CELLight() {
         }}>
         <View style={styles.centeredView}>
             <View style={styles.modalView}>
-            <Text style={styles.modalText}>Here is what the CEL/MIL Light means</Text>
+            <Text style={styles.modalText}>Check engine light/MIL (malfunction indicator light)- engine malfunction sign/safe to drive but requires attention 
+              -- FLASHING -- 
+              vehicle requires immediate attention/will cause damage to catalytic converter with prolonged driving</Text>
 
             <TouchableHighlight
                 style={{ ...styles.openButton, backgroundColor: 'black' }}

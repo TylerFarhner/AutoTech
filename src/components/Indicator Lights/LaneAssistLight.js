@@ -14,7 +14,7 @@ export default function LaneAssistLight() {
         }}>
         <View style={styles.centeredView}>
             <View style={styles.modalView}>
-            <Text style={styles.modalText}>Here is what the LaneAssist Light means</Text>
+            <Text style={styles.modalText}>Lane assist/Steering Assist - indicates that the lane assist system is on and the vehicle can detect the lanes</Text>
 
             <TouchableHighlight
                 style={{ ...styles.openButton, backgroundColor: 'black' }}

@@ -14,7 +14,7 @@ export default function BrakeLight() {
         }}>
         <View style={styles.centeredView}>
             <View style={styles.modalView}>
-            <Text style={styles.modalText}>Here is what the Brake Light means</Text>
+            <Text style={styles.modalText}>Brake Light - ABS malfunction/low brake fluid/low brake pad material</Text>
 
             <TouchableHighlight
                 style={{ ...styles.openButton, backgroundColor: 'black' }}

@@ -14,7 +14,7 @@ export default function ParkingBrakeLight() {
         }}>
         <View style={styles.centeredView}>
             <View style={styles.modalView}>
-            <Text style={styles.modalText}>Here is what the ParkingBrake Light means</Text>
+            <Text style={styles.modalText}>Parking Brake Light - Parking brake is set</Text>
 
             <TouchableHighlight
                 style={{ ...styles.openButton, backgroundColor: 'black' }}

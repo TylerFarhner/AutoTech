@@ -31,6 +31,7 @@ import CabinAirLight from '../components/Indicator Lights/CabinAirLight';
 import LaneAssistLight from '../components/Indicator Lights/LaneAssistLight';
 import ABSLight from '../components/Indicator Lights/ABSLight';
 import ParkAssistLight from '../components/Indicator Lights/ParkAssistLight';
+import DoorAjarLight from "../components/Indicator Lights/DoorAjarLight";
 // ---------------------- INDICATOR LIGHT MODAL IMPORTS ---------------------------
 
 const HomeScreen = () => {
@@ -107,6 +108,10 @@ const HomeScreen = () => {
                 <View style={styles.row}>
                     <ABSLight />
                     <ParkAssistLight />
+                </View>
+
+                <View style={styles.row}>
+                    <DoorAjarLight />
                 </View>
 
             </View>

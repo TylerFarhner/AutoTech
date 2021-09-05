@@ -14,7 +14,7 @@ export default function BatteryLight() {
         }}>
         <View style={styles.centeredView}>
             <View style={styles.modalView}>
-            <Text style={styles.modalText}>Here is what the Battery Light means</Text>
+            <Text style={styles.modalText}>Battery Light - Battery low charge or possible charging system malfunction (inspect battery/alternator)</Text>
 
             <TouchableHighlight
                 style={{ ...styles.openButton, backgroundColor: 'black' }}

@@ -14,7 +14,7 @@ export default function AirbagSRSLight() {
         }}>
         <View style={styles.centeredView}>
             <View style={styles.modalView}>
-            <Text style={styles.modalText}>Here is what the AirbagSRS Light means</Text>
+            <Text style={styles.modalText}>Airbag Light/SRS - fault with SRS system</Text>
 
             <TouchableHighlight
                 style={{ ...styles.openButton, backgroundColor: 'black' }}

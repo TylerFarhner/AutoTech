@@ -14,7 +14,7 @@ export default function GasCapLight() {
         }}>
         <View style={styles.centeredView}>
             <View style={styles.modalView}>
-            <Text style={styles.modalText}>Here is what the GasCap Light means</Text>
+            <Text style={styles.modalText}>Gas cap light - gas cap is open</Text>
 
             <TouchableHighlight
                 style={{ ...styles.openButton, backgroundColor: 'black' }}

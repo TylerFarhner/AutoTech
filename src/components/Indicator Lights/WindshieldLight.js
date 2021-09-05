@@ -14,7 +14,7 @@ export default function WindshieldLight() {
         }}>
         <View style={styles.centeredView}>
             <View style={styles.modalView}>
-            <Text style={styles.modalText}>Here is what the Windshield Light means</Text>
+            <Text style={styles.modalText}>Windshield - windshield washer fluid level low (check fluid level)</Text>
 
             <TouchableHighlight
                 style={{ ...styles.openButton, backgroundColor: 'black' }}

@@ -14,7 +14,7 @@ export default function ParkAssistLight() {
         }}>
         <View style={styles.centeredView}>
             <View style={styles.modalView}>
-            <Text style={styles.modalText}>Here is what the ParkAssist Light means</Text>
+            <Text style={styles.modalText}>Park assist indicator - indicates the Parking Assist feature is activated and working</Text>
 
             <TouchableHighlight
                 style={{ ...styles.openButton, backgroundColor: 'black' }}

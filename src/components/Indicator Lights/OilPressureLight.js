@@ -14,7 +14,7 @@ export default function OilPressureLight() {
         }}>
         <View style={styles.centeredView}>
             <View style={styles.modalView}>
-            <Text style={styles.modalText}>Here is what the Oil Pressure Light means</Text>
+            <Text style={styles.modalText}>Oil pressure light - engine oil pressure is low - inspect for oil leaks and check fluid level</Text>
 
             <TouchableHighlight
                 style={{ ...styles.openButton, backgroundColor: 'black' }}

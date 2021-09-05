@@ -14,7 +14,7 @@ export default function TriangleExclamationLight() {
         }}>
         <View style={styles.centeredView}>
             <View style={styles.modalView}>
-            <Text style={styles.modalText}>Here is what the TriangleExclamation Light means</Text>
+            <Text style={styles.modalText}>Exclamation point inside a triangle - Indicates one or more warning malfunctions (on certain vehicles is also used as a door ajar warning)</Text>
 
             <TouchableHighlight
                 style={{ ...styles.openButton, backgroundColor: 'black' }}

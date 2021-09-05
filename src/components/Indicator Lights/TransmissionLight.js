@@ -14,7 +14,7 @@ export default function TransmissionLight() {
         }}>
         <View style={styles.centeredView}>
             <View style={styles.modalView}>
-            <Text style={styles.modalText}>Here is what the Transmission Light means</Text>
+            <Text style={styles.modalText}>Transmission Temperature - transmission is operating at higher than normal conditions (check coolant and engine temp)</Text>
 
             <TouchableHighlight
                 style={{ ...styles.openButton, backgroundColor: 'black' }}

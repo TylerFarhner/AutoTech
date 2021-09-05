@@ -14,7 +14,7 @@ export default function LightBulbLight() {
         }}>
         <View style={styles.centeredView}>
             <View style={styles.modalView}>
-            <Text style={styles.modalText}>Here is what the LightBulb/MIL Light means</Text>
+            <Text style={styles.modalText}>Light bulb light - one (or multiple) exterior lightbulb requires replacement</Text>
 
             <TouchableHighlight
                 style={{ ...styles.openButton, backgroundColor: 'black' }}

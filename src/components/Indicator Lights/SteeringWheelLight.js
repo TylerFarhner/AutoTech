@@ -14,7 +14,7 @@ export default function SteeringWheelLight() {
         }}>
         <View style={styles.centeredView}>
             <View style={styles.modalView}>
-            <Text style={styles.modalText}>Here is what the SteeringWheel Light means</Text>
+            <Text style={styles.modalText}>Steering Wheel with Exclamation point - Power steering fault - potential low power steering fluid level/electrical fault with power steering system</Text>
 
             <TouchableHighlight
                 style={{ ...styles.openButton, backgroundColor: 'black' }}

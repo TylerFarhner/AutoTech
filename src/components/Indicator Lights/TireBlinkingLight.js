@@ -14,7 +14,9 @@ export default function TireBlinkingLight() {
         }}>
         <View style={styles.centeredView}>
             <View style={styles.modalView}>
-            <Text style={styles.modalText}>Here is what the TireBlinking Light means</Text>
+            <Text style={styles.modalText}>Tire pressure light: Flat tire/low tire pressure
+                -- FLASHING -- Tire pressure monitor sensor failure
+            </Text>
 
             <TouchableHighlight
                 style={{ ...styles.openButton, backgroundColor: 'black' }}
