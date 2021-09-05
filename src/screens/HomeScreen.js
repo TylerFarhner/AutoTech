@@ -19,6 +19,18 @@ import BatteryLight from "../components/Indicator Lights/BatteryLight";
 import TransmissionLight from '../components/Indicator Lights/TransmissionLight';
 import DrivetrainLight from '../components/Indicator Lights/DrivetrainLight';
 import BrakeLight from '../components/Indicator Lights/BrakeLight';
+import GasCapLight from '../components/Indicator Lights/GasCapLight';
+import PressBrakeLight from '../components/Indicator Lights/PressBrakeLight';
+import PressClutchLight from '../components/Indicator Lights/PressClutchLight';
+import SteeringWheelLight from '../components/Indicator Lights/SteeringWheelLight';
+import ParkingBrakeLight from '../components/Indicator Lights/ParkingBrakeLight';
+import TriangleExclamationLight from '../components/Indicator Lights/TriangleExclamationLight';
+import CatalyticConverterLight from '../components/Indicator Lights/CatalyticConverterLight';
+import CircleDashesLight from '../components/Indicator Lights/CircleDashesLight';
+import CabinAirLight from '../components/Indicator Lights/CabinAirLight';
+import LaneAssistLight from '../components/Indicator Lights/LaneAssistLight';
+import ABSLight from '../components/Indicator Lights/ABSLight';
+import ParkAssistLight from '../components/Indicator Lights/ParkAssistLight';
 
 const HomeScreen = () => {
 
