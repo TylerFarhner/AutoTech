@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Alert, Modal, StyleSheet, Text, TouchableHighlight, View } from 'react-native';
+import { Alert, Modal, StyleSheet, Text, TouchableHighlight, View, Image } from 'react-native';
 
 export default function TransmissionLight() {
     const [modalVisible, setModalVisible] = useState(false);
@@ -32,7 +32,7 @@ export default function TransmissionLight() {
         onPress={() => {
           setModalVisible(true);
         }}>
-        <Text style={styles.textStyle}>Transmission</Text>
+        <Image source={require('../../../assets/images/IndicatorLights/TransmissionLight.jpg')} />
       </TouchableHighlight>
     </View>
   );

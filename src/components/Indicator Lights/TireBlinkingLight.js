@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Alert, Modal, StyleSheet, Text, TouchableHighlight, View } from 'react-native';
+import { Alert, Modal, StyleSheet, Text, TouchableHighlight, View, Image } from 'react-native';
 
 export default function TireBlinkingLight() {
     const [modalVisible, setModalVisible] = useState(false);
@@ -32,7 +32,7 @@ export default function TireBlinkingLight() {
         onPress={() => {
           setModalVisible(true);
         }}>
-        <Text style={styles.textStyle}>TireBlinking</Text>
+        <Image source={require('../../../assets/images/IndicatorLights/TPMSLight.jpg')} />
       </TouchableHighlight>
     </View>
   );

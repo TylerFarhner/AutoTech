@@ -33,6 +33,7 @@ export default function PressBrakeLight() {
           setModalVisible(true);
         }}>
         <Text style={styles.textStyle}>PressBrake</Text>
+        {/* TODO: NEED RESIZED IMAGE -- TOO LARGE */}
       </TouchableHighlight>
     </View>
   );

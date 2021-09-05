@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Alert, Modal, StyleSheet, Text, TouchableHighlight, View } from 'react-native';
+import { Alert, Modal, StyleSheet, Text, TouchableHighlight, View, Image } from 'react-native';
 
 export default function AirbagSRSLight() {
     const [modalVisible, setModalVisible] = useState(false);
@@ -32,7 +32,7 @@ export default function AirbagSRSLight() {
         onPress={() => {
           setModalVisible(true);
         }}>
-        <Text style={styles.textStyle}>AirbagSRS</Text>
+        <Image source={require('../../../assets/images/IndicatorLights/SRSLight.gif')} />
       </TouchableHighlight>
     </View>
   );
