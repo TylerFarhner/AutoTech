@@ -9,12 +9,12 @@ const CoolingScreen = () => {
         <View style={styles.container}>
 
             <UnorderedList>
-                <Text>Coolant flush depends on type of coolant the manufacturer requires for the vehicle and the amount of vehicle usage,
+                <Text style={styles.text}>Coolant flush depends on type of coolant the manufacturer requires for the vehicle and the amount of vehicle usage,
                         typically a flush should be performed every 2 years or 30,000 miles</Text>
             </UnorderedList>
 
             <UnorderedList>
-                <Text>Periodic checks for fluid condition and fluid leaks /discoloration of coolant could indicate rust or gasket failure</Text>
+                <Text style={styles.text}>Periodic checks for fluid condition and fluid leaks /discoloration of coolant could indicate rust or gasket failure</Text>
             </UnorderedList>
 
         </View>
@@ -27,6 +27,9 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
         alignItems: 'center',
         padding: 50
+    },
+    text: {
+        fontSize: 20
     }
 })
 

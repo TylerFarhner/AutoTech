@@ -9,9 +9,9 @@ const DiffScreen = () => {
         <View style={styles.container}>
 
             <UnorderedList>
-                <Text>Differential fluid should be replaced every 30,000 to 60,000 miles</Text>
+                <Text style={styles.text}>Differential fluid should be replaced every 30,000 to 60,000 miles</Text>
                 <UnorderedList>
-                    <Text>Contrary to statistics, some manufacturers argue that differential fluid is lifelong</Text>
+                    <Text style={styles.text}>Contrary to statistics, some manufacturers argue that differential fluid is lifelong</Text>
                 </UnorderedList>
             </UnorderedList>
 
@@ -27,6 +27,9 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
         alignItems: 'center',
         padding: 50
+    },
+    text: {
+        fontSize: 20
     }
 })
 

@@ -9,12 +9,12 @@ const SuspensionScreen = () => {
         <View style={styles.container}>
 
             <UnorderedList>
-                <Text>Suspension/Steering(most are lifetime fitment/usually require replacement only when damaged or during heavy driving conditions)</Text>
+                <Text style={styles.text}>Suspension/Steering(most are lifetime fitment/usually require replacement only when damaged or during heavy driving conditions)</Text>
                 <UnorderedList>
-                    <Text>Strut replacement on average every 5-7 years, but depends on the condition of the vehicle and how it’s used</Text>
+                    <Text style={styles.text}>Strut replacement on average every 5-7 years, but depends on the condition of the vehicle and how it’s used</Text>
                 </UnorderedList>
                 <UnorderedList>
-                    <Text>Tie rod replacement when damaged or faulty</Text>
+                    <Text style={styles.text}>Tie rod replacement when damaged or faulty</Text>
                 </UnorderedList>
             </UnorderedList>
 
@@ -30,6 +30,9 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
         alignItems: 'center',
         padding: 50
+    },
+    text: {
+        fontSize: 20
     }
 })
 
