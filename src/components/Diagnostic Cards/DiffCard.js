@@ -5,7 +5,7 @@ export default function DiffCard(props) {
     return (
             <View style={styles.card}>
                 <View>
-                    <Text>Diff Maintenance</Text>
+                    <Text>Differential Maintenance</Text>
                 </View>
             </View>
         

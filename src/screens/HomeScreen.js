@@ -4,7 +4,8 @@ import { ScrollView } from "react-native-gesture-handler";
 
 // ---------------------- INDICATOR LIGHT MODAL IMPORTS ---------------------------
 // import CELFlashLight from "../components/Indicator Lights/CELFlashLight";
-// no longer needed, description added into CEL modal
+// import CabinAirLight from '../components/Indicator Lights/CabinAirLight';
+// no longer needed
 import OilPressureLight from '../components/Indicator Lights/OilPressureLight'
 import CELLight from "../components/Indicator Lights/CELLight";
 import RapidTurnSignalLight from "../components/Indicator Lights/RapidTurnSignalLight";
@@ -28,7 +29,6 @@ import ParkingBrakeLight from '../components/Indicator Lights/ParkingBrakeLight'
 import TriangleExclamationLight from '../components/Indicator Lights/TriangleExclamationLight';
 import CatalyticConverterLight from '../components/Indicator Lights/CatalyticConverterLight';
 import CircleDashesLight from '../components/Indicator Lights/CircleDashesLight';
-import CabinAirLight from '../components/Indicator Lights/CabinAirLight';
 import LaneAssistLight from '../components/Indicator Lights/LaneAssistLight';
 import ABSLight from '../components/Indicator Lights/ABSLight';
 import ParkAssistLight from '../components/Indicator Lights/ParkAssistLight';
@@ -102,13 +102,12 @@ const HomeScreen = () => {
                 </View>
 
                 <View style={styles.row}>
-                    <CabinAirLight />
                     <LaneAssistLight />
+                    <ParkAssistLight />
                 </View>
 
                 <View style={styles.row}>
                     <ABSLight />
-                    <ParkAssistLight />
                 </View>
 
             </View>
