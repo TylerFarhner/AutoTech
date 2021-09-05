@@ -3,9 +3,10 @@ import {StyleSheet, View, Text} from 'react-native'
 import { ScrollView } from "react-native-gesture-handler";
 
 // ---------------------- INDICATOR LIGHT MODAL IMPORTS ---------------------------
+// import CELFlashLight from "../components/Indicator Lights/CELFlashLight";
+// no longer needed, description added into CEL modal
 import OilPressureLight from '../components/Indicator Lights/OilPressureLight'
 import CELLight from "../components/Indicator Lights/CELLight";
-import CELFlashLight from "../components/Indicator Lights/CELFlashLight";
 import RapidTurnSignalLight from "../components/Indicator Lights/RapidTurnSignalLight";
 import LightBulbLight from "../components/Indicator Lights/LightBulbLight";
 import TempGaugeLight from "../components/Indicator Lights/TempGaugeLight";
@@ -46,7 +47,7 @@ const HomeScreen = () => {
                 </View>
 
                 <View style={styles.row}>
-                    <CELFlashLight />
+                    <DoorAjarLight />
                     <RapidTurnSignalLight />
                 </View>
 
@@ -108,10 +109,6 @@ const HomeScreen = () => {
                 <View style={styles.row}>
                     <ABSLight />
                     <ParkAssistLight />
-                </View>
-
-                <View style={styles.row}>
-                    <DoorAjarLight />
                 </View>
 
             </View>
