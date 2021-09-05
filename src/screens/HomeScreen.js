@@ -2,7 +2,7 @@ import React from "react";
 import {StyleSheet, View, Text} from 'react-native'
 import { ScrollView } from "react-native-gesture-handler";
 
-import ModalComp from '../components/Modal'
+// ---------------------- INDICATOR LIGHT MODAL IMPORTS ---------------------------
 import OilPressureLight from '../components/Indicator Lights/OilPressureLight'
 import CELLight from "../components/Indicator Lights/CELLight";
 import CELFlashLight from "../components/Indicator Lights/CELFlashLight";
@@ -31,6 +31,7 @@ import CabinAirLight from '../components/Indicator Lights/CabinAirLight';
 import LaneAssistLight from '../components/Indicator Lights/LaneAssistLight';
 import ABSLight from '../components/Indicator Lights/ABSLight';
 import ParkAssistLight from '../components/Indicator Lights/ParkAssistLight';
+// ---------------------- INDICATOR LIGHT MODAL IMPORTS ---------------------------
 
 const HomeScreen = () => {
 
@@ -107,7 +108,7 @@ const HomeScreen = () => {
                     <ABSLight />
                     <ParkAssistLight />
                 </View>
-                
+
             </View>
         </ScrollView>
     )

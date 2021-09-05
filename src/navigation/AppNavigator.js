@@ -42,35 +42,35 @@ function GMStackNavigator() {
                 component={ GMScreen }
             />
             <Stack.Screen 
-                name="EngineScreen"
+                name="Engine"
                 component={EngineScreen}
             />
             <Stack.Screen 
-                name="BrakeScreen"
+                name="Brakes"
                 component={BrakeScreen}
             />
             <Stack.Screen 
-                name="CoolingScreen"
+                name="Cooling"
                 component={CoolingScreen}
             />
             <Stack.Screen 
-                name="WheelsTiresScreen"
+                name="Wheels & Tires"
                 component={WheelsTiresScreen}
             />
             <Stack.Screen 
-                name="SuspensionScreen"
+                name="Suspension"
                 component={SuspensionScreen}
             />
             <Stack.Screen 
-                name="ACScreen"
+                name="Air Conditioning"
                 component={ACScreen}
             />
             <Stack.Screen 
-                name="TransScreen"
+                name="Transmission"
                 component={TransScreen}
             />
             <Stack.Screen 
-                name="DiffScreen"
+                name="Differential"
                 component={DiffScreen}
             />
         </Stack.Navigator>

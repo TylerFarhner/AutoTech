@@ -16,36 +16,36 @@ const GMScreen = props => {
 
     return(
         <ScrollView>
-            <TouchableOpacity onPress={() => props.navigation.navigate('EngineScreen')}>
-                <EngineCard />
-            </TouchableOpacity>
-
-            <TouchableOpacity onPress={() => props.navigation.navigate('BrakeScreen')}>
-                <BrakeCard />
-            </TouchableOpacity>
-
-            <TouchableOpacity onPress={() => props.navigation.navigate('CoolingScreen')}>
-                <CoolingCard />
-            </TouchableOpacity>
-
-            <TouchableOpacity onPress={() => props.navigation.navigate('WheelsTiresScreen')}>
-                <WheelsTiresCard />
-            </TouchableOpacity>
-                
-            <TouchableOpacity onPress={() => props.navigation.navigate('SuspensionScreen')}>
-                <SuspensionCard />
-            </TouchableOpacity>    
-        
-            <TouchableOpacity onPress={() => props.navigation.navigate('ACScreen')}>
+            <TouchableOpacity onPress={() => props.navigation.navigate('Air Conditioning')}>
                 <ACCard />
             </TouchableOpacity>
 
-            <TouchableOpacity onPress={() => props.navigation.navigate('TransScreen')}>
+            <TouchableOpacity onPress={() => props.navigation.navigate('Brakes')}>
+                <BrakeCard />
+            </TouchableOpacity>
+
+            <TouchableOpacity onPress={() => props.navigation.navigate('Cooling')}>
+                <CoolingCard />
+            </TouchableOpacity>
+
+            <TouchableOpacity onPress={() => props.navigation.navigate('Differential')}>
+                <DiffCard />
+            </TouchableOpacity>
+                
+            <TouchableOpacity onPress={() => props.navigation.navigate('Engine')}>
+                <EngineCard />
+            </TouchableOpacity>    
+        
+            <TouchableOpacity onPress={() => props.navigation.navigate('Suspension')}>
+                <SuspensionCard />
+            </TouchableOpacity>
+
+            <TouchableOpacity onPress={() => props.navigation.navigate('Transmission')}>
                 <TransCard />
             </TouchableOpacity>
 
-            <TouchableOpacity onPress={() => props.navigation.navigate('DiffScreen')}>
-                <DiffCard />
+            <TouchableOpacity onPress={() => props.navigation.navigate('Wheels & Tires')}>
+                <WheelsTiresCard />
             </TouchableOpacity>
                 
         </ScrollView>
