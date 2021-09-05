@@ -1,17 +1,18 @@
 import React from "react";
 import {StyleSheet, View, Text} from 'react-native'
 
-import Header from '../components/Header'
-import Card from '../components/Card'
 import ModalComp from '../components/Modal'
+import OilPressureLight from '../components/Indicator Lights/OilPressureLight'
+import CELLight from "../components/Indicator Lights/CELLight";
+import CELFlashLight from "../components/Indicator Lights/CELFlashLight";
 
 const HomeScreen = () => {
 
     return(
         <View style={styles.layout}>
-            <ModalComp />
-            <ModalComp />
-            <ModalComp />
+            <OilPressureLight />
+            <CELLight />
+            <CELFlashLight />
             <ModalComp />
             {/* <Card />
             <Card /> */}

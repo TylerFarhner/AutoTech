@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Alert, Modal, StyleSheet, Text, TouchableHighlight, View } from 'react-native';
 
-export default function OilPressureLight() {
+export default function CELFlashLight() {
     const [modalVisible, setModalVisible] = useState(false);
     return (
     <View style={styles.centeredView}>
@@ -14,7 +14,7 @@ export default function OilPressureLight() {
         }}>
         <View style={styles.centeredView}>
             <View style={styles.modalView}>
-            <Text style={styles.modalText}>Here is what the Oil Pressure Light means</Text>
+            <Text style={styles.modalText}>Here is what the CEL Flashing Light means</Text>
 
             <TouchableHighlight
                 style={{ ...styles.openButton, backgroundColor: 'black' }}
@@ -32,7 +32,7 @@ export default function OilPressureLight() {
         onPress={() => {
           setModalVisible(true);
         }}>
-        <Text style={styles.textStyle}>Oil Pressure</Text>
+        <Text style={styles.textStyle}>Flashing CEL</Text>
       </TouchableHighlight>
     </View>
   );
