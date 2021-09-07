@@ -32,7 +32,7 @@ export default function RapidTurnSignalLight() {
         onPress={() => {
           setModalVisible(true);
         }}>
-        <Image source={require('../../../assets/images/IndicatorLights/TurnSignalLight.jpg')} />
+        <Image source={require('../../../assets/images/IndicatorLights/TurnSignalLight.png')} />
       </TouchableHighlight>
     </View>
   );
