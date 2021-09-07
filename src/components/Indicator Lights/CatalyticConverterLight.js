@@ -32,7 +32,7 @@ export default function CatalyticConverterLight() {
         onPress={() => {
           setModalVisible(true);
         }}>
-        <Image source={require('../../../assets/images/IndicatorLights/CatalyticConverterLight.jpg')} />
+        <Image source={require('../../../assets/images/IndicatorLights/CatalyticConverterLight.png')} />
       </TouchableHighlight>
     </View>
   );

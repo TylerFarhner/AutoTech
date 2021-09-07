@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Alert, Modal, StyleSheet, Text, TouchableHighlight, View } from 'react-native';
+import { Alert, Modal, StyleSheet, Text, TouchableHighlight, View, Image } from 'react-native';
 
 export default function PressBrakeLight() {
     const [modalVisible, setModalVisible] = useState(false);
@@ -32,7 +32,7 @@ export default function PressBrakeLight() {
         onPress={() => {
           setModalVisible(true);
         }}>
-        <Text style={styles.textStyle}>PressBrake</Text>
+        <Image source={require('../../../assets/images/IndicatorLights/PressBrakeLight.png')} />
         {/* TODO: NEED RESIZED IMAGE -- TOO LARGE */}
       </TouchableHighlight>
     </View>

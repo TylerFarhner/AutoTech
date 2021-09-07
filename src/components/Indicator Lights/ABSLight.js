@@ -32,7 +32,7 @@ export default function ABSLight() {
         onPress={() => {
           setModalVisible(true);
         }}>
-        <Image source={require('../../../assets/images/IndicatorLights/ABSLight.jpg')} />
+        <Image source={require('../../../assets/images/IndicatorLights/ABSLight.png')} />
       </TouchableHighlight>
     </View>
   );
