@@ -32,7 +32,7 @@ export default function TractionControlLight() {
         onPress={() => {
           setModalVisible(true);
         }}>
-        <Image source={require('../../../assets/images/IndicatorLights/TractionControlLight.jpg')} />
+        <Image source={require('../../../assets/images/IndicatorLights/TractionControlLight.png')} />
       </TouchableHighlight>
     </View>
   );
