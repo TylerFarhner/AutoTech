@@ -3,6 +3,7 @@ import { NavigationContainer } from '@react-navigation/native'
 import { createStackNavigator } from '@react-navigation/stack'
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs'
 import { MaterialIcons } from '@expo/vector-icons'
+import { createDrawerNavigator } from '@react-navigation/drawer'
 
 import HomeScreen from '../screens/HomeScreen'
 import GMScreen from '../screens/GMScreen'
@@ -18,7 +19,10 @@ import DiffScreen from '../screens/DiffScreen'
 
 const Stack = createStackNavigator()
 const Tab = createBottomTabNavigator()
+const Drawer = createDrawerNavigator()
 
+
+// ---------------------------------- STACK NAV -------------------------------
 function stackNavigator () {
     return(
         <Stack.Navigator>
@@ -34,6 +38,8 @@ function stackNavigator () {
     );
 }
 
+
+//  -------------------------------- GM STACK NAV -----------------------------
 function GMStackNavigator() {
     return(
         <Stack.Navigator>
@@ -77,37 +83,61 @@ function GMStackNavigator() {
     )
 }
 
+
+// -------------------------- DRAWER NAV ----------------------------
+const HeaderLeft = () => {
+    const navigation = useNavigation();
+
+    return (
+        <MaterialIcons name="menu" size={24} onPress={() => { navigation.openDrawer() }} />
+    )
+}
+
+function AboutNavigator() {
+    return (
+        <Stack.Navigator
+            screenOptions={{
+                headerLeft: () => <HeaderLeft />
+            }}
+        >
+            <Stack.Screen name="About" component={ AboutScreen } />
+        </Stack.Navigator>
+    )
+}
+
+
+
 function AppNavigator() {
     return (
         <NavigationContainer>
-            <Tab.Navigator
-            // --------- ICONS -----------------
-                screenOptions={({ route }) => ({
-                    tabBarIcon: () => {
-                        let iconName;
-                        if(route.name=="Indicator Lights") {
-                            iconName = "home"
-                        } else if(route.name=="General Maintenance") {
-                            iconName = "info"
+                <Tab.Navigator
+                // --------- ICONS -----------------
+                    screenOptions={({ route }) => ({
+                        tabBarIcon: () => {
+                            let iconName;
+                            if(route.name=="Indicator Lights") {
+                                iconName = "home"
+                            } else if(route.name=="General Maintenance") {
+                                iconName = "info"
+                            }
+
+                            return <MaterialIcons name={iconName} size={24}/>
                         }
+                    })}
+                // ---------- /ICONS ----------------
 
-                        return <MaterialIcons name={iconName} size={24}/>
-                    }
-                })}
-            // ---------- /ICONS ----------------
+                // ---------- BOTTOM NAMES ----------- 
+                >
+                    <Tab.Screen 
+                        name="Indicator Lights"
+                        component={ stackNavigator }
+                    />
 
-            // ---------- BOTTOM NAMES ----------- 
-            >
-                <Tab.Screen 
-                    name="Indicator Lights"
-                    component={ stackNavigator }
-                />
-
-                <Tab.Screen 
-                    name="General Maintenance"
-                    component={ GMStackNavigator }
-                />
-            </Tab.Navigator>
+                    <Tab.Screen 
+                        name="General Maintenance"
+                        component={ GMStackNavigator }
+                    />
+                </Tab.Navigator>
         </NavigationContainer>
     )
 }
