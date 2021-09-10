@@ -5,7 +5,7 @@ export default function TransCard(props) {
     return (
             <View style={styles.card}>
                 <View>
-                    <Text>Transmission Maintenance</Text>
+                <Text style={{color: 'white'}}>Transmission Maintenance</Text>
                 </View>
             </View>
         
@@ -20,7 +20,7 @@ const styles = StyleSheet.create({
         shadowOffset: { width: 0, height: 2},
         shadowRadius: 8,
         borderRadius: 10,
-        backgroundColor: '#ffffff',
+        backgroundColor: '#0566c7',
         elevation: 5,
         height: 100,
         margin: 10,
